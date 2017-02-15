@@ -40,6 +40,7 @@ public class NumberWizard : MonoBehaviour {
 			NextGuess ();
 		} else if (Input.GetKeyDown (KeyCode.Return)) {
 			print ("I won!");
+			StartGame ();
 		}
 	}
 
